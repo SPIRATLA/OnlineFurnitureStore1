@@ -41,14 +41,6 @@ public class FeedbackServices implements CustomerFeedbackService
 	}
 
 	@Override
-	public int getReviewByreviewRating(int reviewRating) throws CustomerFeedbackException
-	{
-		//return feedbackRepo.findReviewByRating(reviewRating);
-		return 0;
-		
-	}
-
-	@Override
 	public Review addReview(Review review) throws CustomerFeedbackException {
 		Review addReview = feedbackRepo.save(review);
 		return addReview;
