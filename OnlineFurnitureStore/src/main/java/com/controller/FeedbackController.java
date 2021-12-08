@@ -9,6 +9,7 @@ import com.entity.*;
 import com.service.*;
 import com.exception.*;
 
+@CrossOrigin
 @RestController
 @RequestMapping("api/reviews")
 public class FeedbackController 
